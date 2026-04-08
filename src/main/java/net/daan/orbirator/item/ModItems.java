@@ -14,6 +14,9 @@ public class ModItems {
     public static final RegistryObject<Item> ELDRITCH_UPGRADE_ORB = ITEMS.register("eldritch_upgrade_orb",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> ELDRITCH_RUNE = ITEMS.register("eldritch_rune",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }

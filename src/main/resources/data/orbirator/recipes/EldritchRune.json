@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " E ",
+    "B A",
+    " E "
+  ],
+  "key": {
+    "B": {"item":  "irons_spellbooks:blank_rune"},
+    "E": {"item":  "minecraft:echo_shard"},
+    "A": {"item":  "irons_spellbooks:ancient_knowledge_fragment"}
+  },
+  "result": {
+    "item": "orbirator:eldritch_rune"
+  }
+}

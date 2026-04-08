@@ -18,6 +18,7 @@ public class ModCreativeModTabs {
                     .title(Component.translatable("creativetab.orbirator"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.ELDRITCH_UPGRADE_ORB.get());
+                        pOutput.accept(ModItems.ELDRITCH_RUNE.get());
                     })
                     .build());
 
