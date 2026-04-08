@@ -1,6 +1,6 @@
 {
   "attribute": "irons_spellbooks:fire_spell_power",
   "value": 0.05,
-  "type": "multiply_base",
+  "operation": "multiply_base",
   "item": "orbirator:eldritch_upgrade_orb"
 }
