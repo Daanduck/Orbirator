@@ -4,6 +4,7 @@ plugins {
     id 'maven-publish'
     id 'net.minecraftforge.gradle' version '[6.0,6.2)'
     id 'org.parchmentmc.librarian.forgegradle' version '1.+'
+    id 'org.spongepowered.mixin' version '0.7.+'
 }
 
 version = mod_version
@@ -123,7 +124,7 @@ repositories {
 dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
     implementation fg.deobf("curse.maven:curios-309927:6418456")
-
+    implementation fg.deobf("curse.maven:irons-lib-1492763:7822858")
     implementation fg.deobf("software.bernie.geckolib:geckolib-forge-1.20.1:4.4.9")
     implementation fg.deobf("curse.maven:playeranimator-658587:4587214")
     implementation fg.deobf("curse.maven:irons-spells-n-spellbooks-855414:7822862")
