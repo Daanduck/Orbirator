@@ -2,9 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    " E ",
-    "B A",
-    " E "
+    "   ",
+    "EBA",
+    "   "
   ],
   "key": {
     "B": {"item":  "irons_spellbooks:blank_rune"},
