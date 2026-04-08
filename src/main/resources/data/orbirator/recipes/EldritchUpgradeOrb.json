@@ -8,7 +8,7 @@
   ],
   "key": {
     "R": {"item":  "orbirator:eldritch_rune"},
-    "E": {"item":  "irons_spellbooks:empty_upgrade_orb"}
+    "E": {"item":  "irons_spellbooks:upgrade_orb"}
   },
   "result": {
     "item": "orbirator:eldritch_upgrade_orb"
