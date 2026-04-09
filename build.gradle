@@ -189,7 +189,6 @@ publishing {
 }
 
 mixin {
-    add sourceSets.main, 'orbirator.refmap.json'
     config 'mixins.orbirator.json'
 }
 

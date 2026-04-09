@@ -19,7 +19,7 @@ public class UpgradeOrbTypeRegistryMixin {
     private static void addCustomOrbs(BootstapContext<UpgradeOrbType> bootstrap) {
         bootstrap.register(
                 ResourceKey.create(UPGRADE_ORB_REGISTRY_KEY, new ResourceLocation("orbirator", "eldritch_power")),
-                new UpgradeOrbType(AttributeRegistry.FIRE_SPELL_POWER, 0.05, AttributeModifier.Operation.MULTIPLY_BASE, ModItems.ELDRITCH_UPGRADE_ORB)
+                new UpgradeOrbType(AttributeRegistry.ELDRITCH_SPELL_POWER, 0.05, AttributeModifier.Operation.MULTIPLY_BASE, ModItems.ELDRITCH_UPGRADE_ORB)
         );
     }
 }
