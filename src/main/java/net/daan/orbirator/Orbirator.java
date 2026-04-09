@@ -4,7 +4,6 @@ import com.mojang.logging.LogUtils;
 import io.redspace.ironsspellbooks.item.armor.UpgradeOrbType;
 import net.daan.orbirator.item.ModCreativeModTabs;
 import net.daan.orbirator.item.ModItems;
-import net.daan.orbirator.registries.UpgradeOrbTypeRegistry;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
