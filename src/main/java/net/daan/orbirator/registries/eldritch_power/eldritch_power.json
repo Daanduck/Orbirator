@@ -1,5 +1,0 @@
-{
-  "attribute": "irons_spellbooks:fire_spell_power",
-  "value": 0.1,
-  "operation": "add_multiplied_base"
-}
